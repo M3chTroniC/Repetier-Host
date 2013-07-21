@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<translation revision="5" language="Nederlands" languageInEnglish="Dutch" author="M3chTroniC">
+<translation revision="9" language="Nederlands" languageInEnglish="Dutch" author="M3chTroniC">
    <t id="M_FILE" ver="1">Bestand</t>
    <t id="M_CONFIG" ver="1">Configuratie</t>
    <t id="M_SLICER" ver="1">Slicer</t>
@@ -22,431 +22,149 @@
    <t id="M_SHOW_HEATER_POWER" ver="1">Toon verwarmings vermogen</t>
    <t id="M_AUTOSCROLL_TEMPERATURE_VIEW" ver="1">Autoscroll Temperatuur venster</t>
    <t id="M_TIMEPERIOD" ver="1">Periode</t>
-   <t id="M_TEMPERATURE_ZOOM" ver="1">
-      Tijd interval
-   </t>
-   <t id="M_BUILD_AVERAGE_OVER" ver="1">
-      Weergave Over ...
-   </t>
-   <t id="M_30_SECONDS" ver="1">
-      30 Seconden
-   </t>
-   <t id="M_1_MINUTE" ver="1">
-      1 Minuut
-   </t>
-   <t id="M_2_MINUTES" ver="1">
-      2 Minuten
-   </t>
-   <t id="M_5_MINUTES" ver="1">
-      5 Minuten
-   </t>
-   <t id="M_10_MINUTES" ver="1">
-      10 Minuten
-   </t>
-   <t id="M_15_MINUTES" ver="1">
-      15 Minuten
-   </t>
-   <t id="M_30_MINUTES" ver="1">
-      30 Minuten
-   </t>
-   <t id="M_60_MINUTES" ver="1">
-      60 Minuten
-   </t>
-   <t id="M_CONTINUOUS_MONITORING" ver="1">
-      Monitor Continu
-   </t>
-   <t id="M_DISABLE" ver="1">
-      Uitschakelen
-   </t>
-   <t id="M_EXTRUDER_1" ver="1">
-      Extruder 1
-   </t>
-   <t id="M_EXTRUDER_2" ver="1">
-      Extruder 2
-   </t>
-   <t id="M_HEATED_BED" ver="1">
-      Verwarmd Bed
-   </t>
-   <t id="M_PRINTER_INFORMATION" ver="1">
-      Printer Informatie
-   </t>
-   <t id="M_JOB_STATUS" ver="1">
-      Taak Status
-   </t>
-   <t id="M_SD_CARD_MANAGER" ver="1">
-      SD Kaart Beheerder
-   </t>
-   <t id="L_SD_CARD_MANAGEMENT" ver="1">
-      SD Kaart Beheren
-   </t>
-   <t id="M_TEST_CASE_GENERATOR" ver="1">
-      Test Model Generator
-   </t>
-   <t id="M_SEND_SCRIPT_1" ver="1">
-      Zend Script 1
-   </t>
-   <t id="M_SEND_SCRIPT_2" ver="1">
-      Zend Script 2
-   </t>
-   <t id="M_SEND_SCRIPT_3" ver="1">
-      Zend Script 3
-   </t>
-   <t id="M_SEND_SCRIPT_4" ver="1">
-      Zend Script 4
-   </t>
-   <t id="M_SEND_SCRIPT_5" ver="1">
-      Zend Script 5
-   </t>
-   <t id="M_REPETIER_HOST_HOMEPAGE" ver="1">
-      Repetier-Host Homepage
-   </t>
-   <t id="M_REPETIER_HOST_DOWNLOAD_PAGE" ver="1">
-      Repetier-Host Download
-   </t>
-   <t id="M_MANUAL" ver="1">
-      Repetier-Host Handleiding
-   </t>
-   <t id="M_SLIC3R_HOMEPAGE" ver="1">
-      Slic3r Homepage
-   </t>
-   <t id="M_SKEINFORGE_HOMEPAGE" ver="1">
-      Skeinforge Homepage
-   </t>
-   <t id="M_REPRAP_WEBSITE" ver="1">
-      RepRap Homepage
-   </t>
-   <t id="M_REPRAP_FORUM" ver="1">
-      RepRap Forum
-   </t>
-   <t id="M_THINGIVERSE_NEWEST" ver="1">
-      Thingiverse Niewste dingen
-   </t>
-   <t id="M_THINGIVERSE_POPULAR" ver="1">
-      Thingiverse Populaire dingen
-   </t>
-   <t id="M_ABOUT_REPETIER_HOST" ver="1">
-      Over Repetier-Host
-   </t>
-   <t id="M_CHECK_FOR_UPDATES" ver="1">
-      Controleer op Updates
-   </t>
-   <t id="L_DISCONNECT_PRINTER" ver="1">
-      Printer Ontkoppelen
-   </t>
-   <t id="L_CONNECT_PRINTER" ver="1">
-      Printer Koppelen
-   </t>
-   <t id="M_DISCONNECT" ver="1">
-      Ontkoppelen
-   </t>
-   <t id="M_CONNECT" ver="1">
-      Koppelen
-   </t>
-   <t id="M_QUIT" ver="1">
-      Stop
-   </t>
-   <t id="TAB_3D_VIEW" ver="1">
-      3D Beeld
-   </t>
-   <t id="TAB_TEMPERATURE_CURVE" ver="1">
-      Temperatuur Curve
-   </t>
-   <t id="TAB_OBJECT_PLACEMENT" ver="1">
-      Object Plaatsing
-   </t>
-   <t id="TAB_SLICER" ver="1">
-      Slicer
-   </t>
-   <t id="TAB_GCODE_EDITOR" ver="1">
-      G-Code Bewerken
-   </t>
-   <t id="TAB_MANUAL_CONTROL" ver="1">
-      Handmatige Besturing
-   </t>
-   <t id="M_EMERGENCY_STOP" ver="1">
-      Noodstop
-   </t>
-   <t id="M_LOAD" ver="1">
-      Laden
-   </t>
-   <t id="M_SAVE_JOB" ver="1">
-      Opslaan
-   </t>
-   <t id="M_RUN_JOB" ver="1">
-      Starten
-   </t>
-   <t id="M_PAUSE_JOB" ver="1">
-      Pauzeren
-   </t>
-   <t id="M_KILL_JOB" ver="1">
-      Stoppen
-   </t>
-   <t id="M_SD_CARD" ver="1">
-      SD Kaart
-   </t>
-   <t id="M_TOGGLE_LOG" ver="1">
-      Log aan/uit
-   </t>
-   <t id="M_SHOW_FILAMENT" ver="1">
-      Toon Filament
-   </t>
-   <t id="M_HIDE_FILAMENT" ver="1">
-      Verberg Filament
-   </t>
-   <t id="L_FILAMENT_VISUALIZATION_DISABLED" ver="1">
-      Filament Visualisatie uit
-   </t>
-   <t id="L_FILAMENT_VISUALIZATION_ENABLED" ver="1">
-      Filament Visualisatie Aan
-   </t>
-   <t id="L_LOAD_FILE" ver="1">
-      Laad Bestand
-   </t>
-   <t id="L_IMPORT_G_CODE" ver="1">
-      Importeer G-Code
-   </t>
-   <t id="L_SAVE_G_CODE" ver="1">
-      G-Code Opslaan
-   </t>
-   <t id="L_ERROR" ver="1">
-      Fout!
-   </t>
+   <t id="M_TEMPERATURE_ZOOM" ver="1">Tijd interval</t>
+   <t id="M_BUILD_AVERAGE_OVER" ver="1">Weergave Over ...</t>
+   <t id="M_30_SECONDS" ver="1">30 Seconden</t>
+   <t id="M_1_MINUTE" ver="1">1 Minuut</t>
+   <t id="M_2_MINUTES" ver="1">2 Minuten</t>
+   <t id="M_5_MINUTES" ver="1">5 Minuten</t>
+   <t id="M_10_MINUTES" ver="1">10 Minuten</t>
+   <t id="M_15_MINUTES" ver="1">15 Minuten</t>
+   <t id="M_30_MINUTES" ver="1">30 Minuten</t>
+   <t id="M_60_MINUTES" ver="1">60 Minuten</t>
+   <t id="M_CONTINUOUS_MONITORING" ver="1">Monitor Continu</t>
+   <t id="M_DISABLE" ver="1">Uitschakelen</t>
+   <t id="M_EXTRUDER_1" ver="1">Extruder 1</t>
+   <t id="M_EXTRUDER_2" ver="1">Extruder 2</t>
+   <t id="M_HEATED_BED" ver="1">Verwarmd Bed</t>
+   <t id="M_PRINTER_INFORMATION" ver="1">Printer Informatie</t>
+   <t id="M_JOB_STATUS" ver="1">Taak Status</t>
+   <t id="M_SD_CARD_MANAGER" ver="1">SD Kaart Beheerder</t>
+   <t id="L_SD_CARD_MANAGEMENT" ver="1">SD Kaart Beheren</t>
+   <t id="M_TEST_CASE_GENERATOR" ver="1">Test Model Generator</t>
+   <t id="M_SEND_SCRIPT_1" ver="1">Zend Script 1</t>
+   <t id="M_SEND_SCRIPT_2" ver="1">Zend Script 2</t>
+   <t id="M_SEND_SCRIPT_3" ver="1">Zend Script 3</t>
+   <t id="M_SEND_SCRIPT_4" ver="1">Zend Script 4</t>
+   <t id="M_SEND_SCRIPT_5" ver="1">Zend Script 5</t>
+   <t id="M_REPETIER_HOST_HOMEPAGE" ver="1">Repetier-Host Homepage</t>
+   <t id="M_REPETIER_HOST_DOWNLOAD_PAGE" ver="1">Repetier-Host Download</t>
+   <t id="M_MANUAL" ver="1">Repetier-Host Handleiding</t>
+   <t id="M_SLIC3R_HOMEPAGE" ver="1">Slic3r Homepage</t>
+   <t id="M_SKEINFORGE_HOMEPAGE" ver="1">Skeinforge Homepage</t>
+   <t id="M_REPRAP_WEBSITE" ver="1">RepRap Homepage</t>
+   <t id="M_REPRAP_FORUM" ver="1">RepRap Forum</t>
+   <t id="M_THINGIVERSE_NEWEST" ver="1">Thingiverse Niewste dingen</t>
+   <t id="M_THINGIVERSE_POPULAR" ver="1">Thingiverse Populaire dingen</t>
+   <t id="M_ABOUT_REPETIER_HOST" ver="1">Over Repetier-Host</t>
+   <t id="M_CHECK_FOR_UPDATES" ver="1">Controleer op Updates</t>
+   <t id="L_DISCONNECT_PRINTER" ver="1">Printer Ontkoppelen</t>
+   <t id="L_CONNECT_PRINTER" ver="1">Printer Koppelen</t>
+   <t id="M_DISCONNECT" ver="1">Ontkoppelen</t>
+   <t id="M_CONNECT" ver="1">Koppelen</t>
+   <t id="M_QUIT" ver="1">Stop</t>
+   <t id="TAB_3D_VIEW" ver="1">3D Beeld</t>
+   <t id="TAB_TEMPERATURE_CURVE" ver="1">Temperatuur Curve</t>
+   <t id="TAB_OBJECT_PLACEMENT" ver="1">Object Plaatsing</t>
+   <t id="TAB_SLICER" ver="1">Slicer</t>
+   <t id="TAB_GCODE_EDITOR" ver="1">G-Code Bewerken</t>
+   <t id="TAB_MANUAL_CONTROL" ver="1">Handmatige Besturing</t>
+   <t id="M_EMERGENCY_STOP" ver="1">Noodstop</t>
+   <t id="M_LOAD" ver="1">Laden</t>
+   <t id="M_SAVE_JOB" ver="1">Opslaan</t>
+   <t id="M_RUN_JOB" ver="1">Starten</t>
+   <t id="M_PAUSE_JOB" ver="1">Pauzeren</t>
+   <t id="M_KILL_JOB" ver="1">Stoppen</t>
+   <t id="M_SD_CARD" ver="1">SD Kaart</t>
+   <t id="M_TOGGLE_LOG" ver="1">Log aan/uit</t>
+   <t id="M_SHOW_FILAMENT" ver="1">Toon Filament</t>
+   <t id="M_HIDE_FILAMENT" ver="1">Verberg Filament</t>
+   <t id="L_FILAMENT_VISUALIZATION_DISABLED" ver="1">Filament Visualisatie uit</t>
+   <t id="L_FILAMENT_VISUALIZATION_ENABLED" ver="1">Filament Visualisatie Aan</t>
+   <t id="L_LOAD_FILE" ver="1">Laad Bestand</t>
+   <t id="L_IMPORT_G_CODE" ver="1">Importeer G-Code</t>
+   <t id="L_SAVE_G_CODE" ver="1">G-Code Opslaan</t>
+   <t id="L_ERROR" ver="1">Fout!</t>
    <t id="L_PAUSE_MSG" ver="1">Klik OK om door te gaan. Je kan een pauze in de code inbouwen. @pause Dit als voorbeeld</t>
-   <t id="L_UPDATING..." ver="1">
-      Updaten ...
-   </t>
-   <t id="L_SLICE_WITH" ver="1">
-      Slice met $1
-   </t>
+   <t id="L_UPDATING..." ver="1">Updaten ...</t>
+   <t id="L_SLICE_WITH" ver="1">Slice met $1 </t>
    <t id="L_EMERGENCY_STOP_MSG" ver="1">Zend een noodstop naar de printer. mogelijk moet de printer ge-reset worden voor een herstart!</t>
-   <t id="L_TRANSLATION:" ver="1">
-      Transleren
-   </t>
-   <t id="L_SCALE:" ver="1">
-      Schaal
-   </t>
-   <t id="L_ROTATE:" ver="1">
-      Roteren
-   </t>
-   <t id="L_STL_OBJECTS" ver="1">
-      STL Objecten
-   </t>
-   <t id="B_SAVE_AS_STL" ver="1">
-      Opslaan als STL
-   </t>
-   <t id="B_REMOVE_STL_OBJECT" ver="1">
-      Verwijder Object
-   </t>
-   <t id="B_ADD_STL_OBJECT" ver="1">
-      Object Toevoegen
-   </t>
-   <t id="B_AUTOPOSITION" ver="1">
-      Auto Positioneren
-   </t>
-   <t id="B_DROP_OBJECT" ver="1">
-      Plaats Object
-   </t>
-   <t id="B_COPY_OBJECTS" ver="1">
-      Kopieer Object(en)
-   </t>
-   <t id="B_CENTER_OBJECT" ver="1">
-      Centreer Object
-   </t>
-   <t id="L_LOCK_ASPECT_RATIO" ver="1">
-      Vast Aspect Ratio
-   </t>
-   <t id="B_KILL_SLICING_PROCESS" ver="1">
-      Stop Slicing
-   </t>
-   <t id="B_SETUP_SKEINFORGE" ver="1">
-      Instellen
-   </t>
-   <t id="B_SETUP_SLIC3R" ver="1">
-      Instellen
-   </t>
-   <t id="B_CONFIGURE_SKEINFORGE" ver="1">
-      Configureren
-   </t>
-   <t id="B_CONFIGURE_SLIC3R" ver="1">
-      Configureren
-   </t>
-   <t id="B_ACTIVE" ver="1">
-      Actief
-   </t>
-   <t id="L_FILAMENT_SETTINGS" ver="1">
-      Filament Instellingen:
-   </t>
-   <t id="L_PRINTER_SETTINGS" ver="1">
-      Printer Instellingen:
-   </t>
-   <t id="L_PRINT_SETTINGS" ver="1">
-      Print Instellingen:
-   </t>
-   <t id="L_PROFILE" ver="1">
-      Profiel:
-   </t>
-   <t id="B_SEND" ver="1">
-      Versturen
-   </t>
-   <t id="B_SIMULATE_OK" ver="1">
-      OK
-   </t>
-   <t id="B_STOP_MOTOR" ver="1">
-      Stop Motor
-   </t>
-   <t id="B_PARK" ver="1">
-      Parkeer
-   </t>
-   <t id="B_RETRACT" ver="1">
-      Terugtrekken
-   </t>
-   <t id="B_EXTRUDE" ver="1">
-      Extruderen
-   </t>
-   <t id="L_OUTPUT_PERCENT" ver="1">
-      Capaciteit $1%
-   </t>
-   <t id="B_POWER" ver="1">
-      Aan/Uit
-   </t>
-   <t id="B_HEAT_EXTRUDER" ver="1">
-      Verwarm Extruder
-   </t>
-   <t id="B_HEAT_PRINTBED" ver="1">
-      Verwarm Printbed
-   </t>
-   <t id="B_FAN" ver="1">
-      Ventilator
-   </t>
-   <t id="B_DEBUG_ERRORS" ver="1">
-      Fouten
-   </t>
-   <t id="B_DEBUG_ECHO" ver="1">
-      Echo
-   </t>
-   <t id="B_DRY_RUN" ver="1">
-      Droog Printen
-   </t>
-   <t id="B_DEBUG_INFO" ver="1">
-      Info
-   </t>
-   <t id="L_EXTRUDER" ver="1">
-      Extruder
-   </t>
-   <t id="L_PRINTBED" ver="1">
-      Printbed
-   </t>
-   <t id="L_SPEED_MULTIPLY" ver="1">
-      Snelheid Instellen
-   </t>
-   <t id="L_EXTRUDE_MM" ver="1">
-      Extruderen [mm]
-   </t>
-   <t id="L_EXTRUDER_SPEED_MM_MIN" ver="1">
-      Snelheid [mm/min]
-   </t>
-   <t id="L_RETRACT_MM" ver="1">
-      Terugtrekking [mm]
-   </t>
-   <t id="L_TEMP" ver="1">
-      Temp.
-   </t>
-   <t id="L_DISCONNECTED" ver="1">
-      Niet verbonden
-   </t>
-   <t id="L_CONNECTED" ver="1">
-      Verbonden
-   </t>
-   <t id="L_HEATING_BED" ver="1">
-      Verwarming Bed
-   </t>
-   <t id="L_HEATING_EXTRUDER" ver="1">
-      Verwarming Extruder
-   </t>
-   <t id="L_PRINT_JOB_KILLED" ver="1">
-      Printtaak gestopt
-   </t>
-   <t id="L_PRINT_JOB_PAUSED" ver="1">
-      Printtaak gepauzeerd
-   </t>
-   <t id="L_PRINT_JOB_FINISHED" ver="1">
-      Printtaak klaar
-   </t>
-   <t id="L_UPLOADING..." ver="1">
-      Opsturen ...
-   </t>
-   <t id="L_PRINTING_JOB_ETA" ver="1">
-      Printtaak ETA $1
-   </t>
-   <t id="L_IDLE" ver="1">
-      Wachtend
-   </t>
-   <t id="L_X_COMMANDS_WAITING" ver="1">
-      $1 Commando verwacht
-   </t>
-   <t id="L_EXTRUDER:" ver="1">
-      Extruder:
-   </t>
-   <t id="L_BED:" ver="1">
-      Bed:
-   </t>
-   <t id="L_OFF" ver="1">
-      Uit
-   </t>
-   <t id="L_NOT_A_NUMBER" ver="1">
-      Geen getal
-   </t>
-   <t id="L_POSITIVE_NUMBER_REQUIRED" ver="1">
-      Positief getal verwacht
-   </t>
-   <t id="L_NOT_AN_INTEGER" ver="1">
-      Geen integer
-   </t>
-   <t id="L_RESET_OUTPUT" ver="1">
-      Reset output. Na een pauze, krijg ik alleen $1
-   </t>
-   <t id="L_RECEIVING_ONLY_ERRORS" ver="1">
-      Ontvang alleen foutmeldingen. Communicatie gestopt.
-   </t>
-   <t id="L_PRINTING..ETA" ver="1">
-      Printen...ETA $1
-   </t>
-   <t id="L_LAYER_X/Y" ver="1">
-      ; Laag $1/$2
-   </t>
-   <t id="L_ERROR_SENDING_DATA:" ver="1">
-      Fout in versturen data:
-   </t>
-   <t id="L_CONNECTION_ERROR" ver="1">
-      Verbindings fout
-   </t>
-   <t id="L_SERIAL_COM_ERROR" ver="1">
-      Seriele communicatie fout:
-   </t>
-   <t id="L_SHOW_IN_LOG" ver="1">
-      Toon in Log:
-   </t>
-   <t id="B_ACK" ver="1">
-      ACK
-   </t>
-   <t id="B_AUTO_SCROLL" ver="1">
-      Auto Scroll
-   </t>
-   <t id="B_COMMANDS" ver="1">
-      Opdrachten
-   </t>
-   <t id="B_LOG_ERRORS" ver="1">
-      Fouten
-   </t>
-   <t id="B_LOG_INFO" ver="1">
-      Infos
-   </t>
-   <t id="B_LOG_WARNINGS" ver="1">
-      Waarschuwingen
-   </t>
-   <t id="B_COPY" ver="1">
-      Kopieer
-   </t>
+   <t id="L_TRANSLATION:" ver="1">Transleren</t>
+   <t id="L_SCALE:" ver="1">Schaal</t>
+   <t id="L_ROTATE:" ver="1">Roteren</t>
+   <t id="L_STL_OBJECTS" ver="1">STL Objecten</t>
+   <t id="B_SAVE_AS_STL" ver="1">Opslaan als STL</t>
+   <t id="B_REMOVE_STL_OBJECT" ver="1">Verwijder Object</t>
+   <t id="B_ADD_STL_OBJECT" ver="1">Object Toevoegen</t>
+   <t id="B_AUTOPOSITION" ver="1">Auto Positioneren</t>
+   <t id="B_DROP_OBJECT" ver="1">Plaats Object</t>
+   <t id="B_COPY_OBJECTS" ver="1">Kopieer Object(en)</t>
+   <t id="B_CENTER_OBJECT" ver="1">Centreer Object</t>
+   <t id="L_LOCK_ASPECT_RATIO" ver="1">Vast Aspect Ratio</t>
+   <t id="B_KILL_SLICING_PROCESS" ver="1">Stop Slicing</t>
+   <t id="B_SETUP_SKEINFORGE" ver="1">Instellen</t>
+   <t id="B_SETUP_SLIC3R" ver="1">Instellen</t>
+   <t id="B_CONFIGURE_SKEINFORGE" ver="1">Configureren</t>
+   <t id="B_CONFIGURE_SLIC3R" ver="1">Configureren</t>
+   <t id="B_ACTIVE" ver="1">Actief</t>
+   <t id="L_FILAMENT_SETTINGS" ver="1">Filament Instellingen:</t>
+   <t id="L_PRINTER_SETTINGS" ver="1">Printer Instellingen:</t>
+   <t id="L_PRINT_SETTINGS" ver="1">Print Instellingen:</t>
+   <t id="L_PROFILE" ver="1">Profiel:</t>
+   <t id="B_SEND" ver="1">Versturen</t>
+   <t id="B_SIMULATE_OK" ver="1">OK</t>
+   <t id="B_STOP_MOTOR" ver="1">Stop Motor</t>
+   <t id="B_PARK" ver="1">Parkeer</t>
+   <t id="B_RETRACT" ver="1">Terugtrekken</t>
+   <t id="B_EXTRUDE" ver="1">Extruderen</t>
+   <t id="L_OUTPUT_PERCENT" ver="1">Capaciteit $1%</t>
+   <t id="B_POWER" ver="1">Aan/Uit</t>
+   <t id="B_HEAT_EXTRUDER" ver="1">Verwarm Extruder</t>
+   <t id="B_HEAT_PRINTBED" ver="1">Verwarm Printbed</t>
+   <t id="B_FAN" ver="1">Ventilator</t>
+   <t id="B_DEBUG_ERRORS" ver="1">Fouten</t>
+   <t id="B_DEBUG_ECHO" ver="1">Echo</t>
+   <t id="B_DRY_RUN" ver="1">Droog Printen</t>
+   <t id="B_DEBUG_INFO" ver="1">Info</t>
+   <t id="L_EXTRUDER" ver="1">Extruder</t>
+   <t id="L_PRINTBED" ver="1">Printbed</t>
+   <t id="L_SPEED_MULTIPLY" ver="1">Snelheid Instellen</t>
+   <t id="L_EXTRUDE_MM" ver="1">Extruderen [mm]</t>
+   <t id="L_EXTRUDER_SPEED_MM_MIN" ver="1">Snelheid [mm/min]</t>
+   <t id="L_RETRACT_MM" ver="1">Terugtrekking [mm]</t>
+   <t id="L_TEMP" ver="1">Temp.</t>
+   <t id="L_DISCONNECTED" ver="1">Niet verbonden</t>
+   <t id="L_CONNECTED" ver="1">Verbonden</t>
+   <t id="L_HEATING_BED" ver="1">Verwarming Bed</t>
+   <t id="L_HEATING_EXTRUDER" ver="1">Verwarming Extruder</t>
+   <t id="L_PRINT_JOB_KILLED" ver="1">Printtaak gestopt</t>
+   <t id="L_PRINT_JOB_PAUSED" ver="1">Printtaak gepauzeerd</t>
+   <t id="L_PRINT_JOB_FINISHED" ver="1">Printtaak klaar</t>
+   <t id="L_UPLOADING..." ver="1">Opsturen ...</t>
+   <t id="L_PRINTING_JOB_ETA" ver="1">Printtaak ETA $1</t>
+   <t id="L_IDLE" ver="1">Wachtend</t>
+   <t id="L_X_COMMANDS_WAITING" ver="1">$1 Commando verwacht</t>
+   <t id="L_EXTRUDER:" ver="1">Extruder:</t>
+   <t id="L_BED:" ver="1">Bed:</t>
+   <t id="L_OFF" ver="1">Uit</t>
+   <t id="L_NOT_A_NUMBER" ver="1">Geen getal</t>
+   <t id="L_POSITIVE_NUMBER_REQUIRED" ver="1">Positief getal verwacht</t>
+   <t id="L_NOT_AN_INTEGER" ver="1">Geen integer</t>
+   <t id="L_RESET_OUTPUT" ver="1"> Reset output. Na een pauze, krijg ik alleen $1</t>
+   <t id="L_RECEIVING_ONLY_ERRORS" ver="1">Ontvang alleen foutmeldingen. Communicatie gestopt.</t>
+   <t id="L_PRINTING..ETA" ver="1">Printen...ETA $1</t>
+   <t id="L_LAYER_X/Y" ver="1">; Laag $1/$2</t>
+   <t id="L_ERROR_SENDING_DATA:" ver="1">Fout in versturen data:</t>
+   <t id="L_CONNECTION_ERROR" ver="1">Verbindings fout</t>
+   <t id="L_SERIAL_COM_ERROR" ver="1">Seriele communicatie fout:</t>
+   <t id="L_SHOW_IN_LOG" ver="1">Toon in Log:</t>
+   <t id="B_ACK" ver="1">ACK</t>
+   <t id="B_AUTO_SCROLL" ver="1">Auto Scroll</t>
+   <t id="B_COMMANDS" ver="1">Opdrachten</t>
+   <t id="B_LOG_ERRORS" ver="1">Fouten</t>
+   <t id="B_LOG_INFO" ver="1">Infos</t>
+   <t id="B_LOG_WARNINGS" ver="1">Waarschuwingen</t>
+   <t id="B_COPY" ver="1">Kopieer</t>
    <t id="B_CLEAR_LOG" ver="1">
       Log opschonen
    </t>
@@ -1325,4 +1043,112 @@
 <t id="L_NEW_FOLDER" ver="5">Nieuwe Map</t>
 <t id="L_USE_PARALLEL_PROJECTION" ver="5">Parallelle projectie</t>
 <t id="L_USE_RED_GREEN_SWITCH" ver="5">Gebruik rood/groen keuze knoppen (herstart nodig)</t>
+<t id="L_SLIC3R_NOT_FOUND" ver="6">Slic3r niet gevonden.</t>
+<t id="L_ANALYSING_STL" ver="6">Analizeren STL file ...</t>
+<t id="L_SLICING_STL" ver="6">Slicing STL file ...</t>
+<t id="L_PYPY_NOT_FOUND" ver="6">Pypy or Python interpreter niet gevonden.</t>
+<t id="L_SKEINCRAFT_NOT_FOUND" ver="6">Skeinforge craft not found.</t>
+<t id="L_PYTHON_NOT_FOUND" ver="6">Python interpreter not found.</t>
+<t id="L_SKEINFORGE_NOT_FOUND" ver="6">Skeinforge not found.</t>
+<t id="L_SKEINCRAFT_PROFILES_NOT_FOUND" ver="6">Skeinforge/SFACT profiles directory not found.</t>
+<t id="B_REFRESH_PORTS" ver="6">Refresh Ports</t>
+<t id="L_ROS_PRINTABLE_HEIGHT:" ver="6">Printable Height:</t>
+<t id="L_ROS_PRINTABLE_RADIUS:" ver="6">Printable Radius:</t>
+<t id="L_CARTESIAN_PRINTER" ver="6">Classic Printer</t>
+<t id="L_CARTESIAN_PRINTER_DUMP" ver="6">Classic Printer (with dump area)</t>
+<t id="L_ROSTOCK_CIRCLE" ver="6">Rostock Printer (circular print shape)</t>
+<t id="L_CORRECT_NORMALS" ver="7">Use correct normals (looks better, needs more memory)</t>
+<t id="L_WARNING" ver="8">Warning</t>
+<t id="L_HEATERS_ON_QUEST" ver="8">Some heaters are still on. Shall I disable them?</t>
+<t id="L_OBJECTS_OUTSIDE_SLICE_QUEST" ver="8">At least one object is outside the printable area. Abort slicing?</t>
+<t id="L_CNC_ROUTER" ver="8">CNC Router</t>
+<t id="L_SLIC3R_VERSION" ver="8">Slic3r Version</t>
+<t id="L_MODEL_ERRORS" ver="9">Model Errors:</t>
+<t id="L_REPAIR" ver="9">Repair</t>
+<t id="L_SPLIT" ver="9">Split</t>
+<t id="L_YES" ver="9">Yes</t>
+<t id="L_NO" ver="9">No</t>
+<t id="L_MODEL_CHANGED_RELOAD" ver="9">One or more objects files are changed.\r\nReload objects?</t>
+<t id="L_FILES_CHANGED" ver="9">Files changed</t>
+<t id="L_INNER_FACES" ver="9">Inner faces:</t>
+<t id="L_BACKGROUND_TOP" ver="9">Background Top:</t>
+<t id="L_BACKGROUND_BOTTOM" ver="9">Background Bottom:</t>
+<t id="L_PRINTER_FRAME" ver="9">Printer Frame:</t>
+<t id="L_ISOMETRIC_VIEW" ver="9">Isometric View</t>
+<t id="L_BOTTOM_VIEW" ver="9">Bottom View</t>
+<t id="L_LEFT_VIEW" ver="9">Left View</t>
+<t id="L_RIGHT_VIEW" ver="9">Right View</t>
+<t id="L_FRONT_VIEW" ver="9">Front View</t>
+<t id="L_BACK_VIEW" ver="9">Back View</t>
+<t id="M_VIEW" ver="9">View</t>
+<t id="M_SHOW_EDGES" ver="9">Show Edges</t>
+<t id="M_SHOW_FACES" ver="9">Show Faces</t>
+<t id="L_ANA_MODIFIED" ver="9">Modified:</t>
+<t id="L_ANA_MANIFOLD" ver="9">Manifold:</t>
+<t id="L_ANA_INTERSECTING_TRIANGLES" ver="9">Intersecting triangles:</t>
+<t id="L_ANA_NORMALS" ver="9">Normals:</t>
+<t id="L_ANA_LOOP_EDGES" ver="9">Loop Edges:</t>
+<t id="L_ANA_HIGHLY_CONNECTED" ver="9">Highly Connected Edges:</t>
+<t id="L_ANA_VERTICES" ver="9">Points:</t>
+<t id="L_ANA_EDGES" ver="9">Edges:</t>
+<t id="L_ANA_FACES" ver="9">Faces:</t>
+<t id="L_ANA_SHELLS" ver="9">Shells:</t>
+<t id="L_ANA_ORIENTED" ver="9">Oriented</t>
+<t id="L_ANA_NOT_ORIENTED" ver="9">Not Oriented</t>
+<t id="M_TOOLS" ver="9">Tools</t>
+<t id="M_BELT_CALCULATOR" ver="9">Belt Calculator</t>
+<t id="M_LEADSCREW_CALCULATOR" ver="9">Leadscrew Calculator</t>
+<t id="L_MOTOR_STEP_ANGLE" ver="9">Motor step angle</t>
+<t id="L_DRIVER_MICROSTEPPING" ver="9">Driver Microstepping</t>
+<t id="L_BELT_PITCH" ver="9">Belt Pitch</t>
+<t id="L_TOOTH_COUNT" ver="9">Tooth Count</t>
+<t id="B_CALCULATE" ver="9">Calculate</t>
+<t id="L_STEPS_PER_MM" ver="9">Value for steps per mm</t>
+<t id="L_TOOTH_COUNT_MUST_INT" ver="9">Tooth Count must be int</t>
+<t id="L_LEADSCREW_PITCH" ver="9">Leadscrew pitch</t>
+<t id="L_GEAR_RATIO" ver="9">Gear ratio</t>
+<t id="L_SERIAL_CONNECTION" ver="9">Serial Connection</t>
+<t id="L_VIRTUAL_CONNECTION" ver="9">Virtual Printer</t>
+<t id="L_REPETIER_SERVER_CONNECTION" ver="9">Repetier-Server</t>
+<t id="L_CONNECTOR" ver="9">Connector</t>
+<t id="L_DISABLED" ver="9">Disabled</t>
+<t id="L_DTR_LOW_HIGH" ver="9">DTR high->low</t>
+<t id="L_DTR_LOW_HIGH_LOW" ver="9">DTR low->high->low</t>
+<t id="L_DTR_TOGGLE" ver="9">DTR toggle</t>
+<t id="L_RESET_ON_CONNECT" ver="9">Reset on Connect</t>
+<t id="L_RESET_ON_EMERGENCY" ver="9">Reset on Emergency</t>
+<t id="L_SEND_EMERGENCY_CMD" ver="9">Send emergency command</t>
+<t id="L_SEND_EMERGENCY_CMD_DTR_TOGGLE" ver="9">Send emergency command + DTR high->low</t>
+<t id="L_SEND_EMERGENCY_CMD_RECONNECT" ver="9">Send emergency command and reconnect</t>
+<t id="L_FILE_ASSOCIATIONS" ver="9">File Associations</t>
+<t id="L_ASSOCIATE_EXTENSIONS" ver="9">Associate Extensions</t>
+<t id="L_CONNECTION_FAILED" ver="9">The connection failed with the following error: $1. Make sure your printer is connected, enabled and connection data is set correct. Open printer settings?</t>
+<t id="L_AUTOENABLE_PARALLEL_TOPVIEW" ver="9">Enable parallel mode in top view</t>
+<t id="L_RESET_DEFAULTS" ver="9">Reset defaults</t>
+<t id="L_REMOVED_DEGENERATED" ver="9">Removed degenerated triangles:</t>
+<t id="L_REMOVED_ISOLATED" ver="9">Removed isolated triangles:</t>
+<t id="L_REMOVED_DOUBLE" ver="9">Removed double triangles:</t>
+<t id="L_STARTING_ANALYSER" ver="9">Starting object analyser ...</t>
+<t id="L_ANALYSER_FINISHED" ver="9">Analysing finished.</t>
+<t id="L_LOADING_3D_FAILED" ver="9">Loading of 3d file $1 failed.</t>
+<t id="L_OBJECT_INFORMATIONS" ver="9">Object Informations</t>
+<t id="L_MINIMUM:" ver="9">Minimum:</t>
+<t id="L_MAXIMUM:" ver="9">Maximum:</t>
+<t id="L_SIZE:" ver="9">Size:</t>
+<t id="L_VOLUME:" ver="9">Volume:</t>
+<t id="L_SURFACE:" ver="9">Surface:</t>
+<t id="L_DIMENSIONS:" ver="9">Dimensions:</t>
+<t id="L_SPLIT_OBJECT" ver="9">Split Object</t>
+<t id="L_FIX_NORMALS" ver="9">Fix Normals</t>
+<t id="M_FIT_PRINTER" ver="9">Fit Printer</t>
+<t id="M_FIT_OBJECTS" ver="9">Fit Objects</t>
+<t id="IMPORTING_1" ver="9">Importing $1</t>
+<t id="L_LOADING..." ver="9">Loading ...</t>
+<t id="L_INTERSECTION_TESTS" ver="9">Intersection tests</t>
+<t id="L_FIXING_NORMALS" ver="9">Fixing normals</t>
+<t id="L_ANA_FIXED_COLLINEAR_TRIANGLES" ver="9">Fixed collinear triangles:</t>
+<t id="L_ANA_CORRECTED_NORMAL_ORIENTATIONS" ver="9">Corrected normal orientations:</t>
+<t id="L_OBJECT_IS_MANIFOLD" ver="9">Object is manifold.</t>
+<t id="L_OBJECT_IS_NON_MANIFOLD" ver="9">Object is non-manifold. Slicing may produce wrong results. Please repair object file first.</t>
+<t id="L_" ver="9"></t>
 </translation>
